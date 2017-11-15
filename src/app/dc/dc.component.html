@@ -1,0 +1,10 @@
+<fieldset>
+    <legend>D.C.</legend>
+    <h2>Washington D.C.</h2>
+    <p>Humidity: {{humidity}}</p>
+    <p>Average Temperature: {{temp_avg}}</p>
+    <p>High Temperature: {{temp_max}}</p>
+    <p>Low Temperature: {{temp_min}}</p>
+    <p *ngFor="let x of status">Status: {{x.description}}</p>
+    <img src="/assets/dc.jpg" alt="dc">
+</fieldset>

@@ -1,0 +1,10 @@
+<fieldset>
+    <legend>San Jose</legend>
+    <h2>San Jose, CA</h2>
+    <p>Humidity: {{humidity}}</p>
+    <p>Average Temperature: {{temp_avg}}</p>
+    <p>High Temperature: {{temp_max}}</p>
+    <p>Low Temperature: {{temp_min}}</p>
+    <p *ngFor="let x of status">Status: {{x.description}}</p>
+    <img src="/assets/sanjose.jpg" alt="sanjose">
+</fieldset>
